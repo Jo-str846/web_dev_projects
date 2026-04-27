@@ -4,39 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+    <style>
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
+    <header>
     <h1 style="text-align: center;">Introduction to Web Development</h1>
-    <p>Web development is the process of creating websites and web applications. It involves a combination of programming, design, and content creation to build functional and visually appealing websites.</p>
+    <p style="text-align: center; font-style: italic;">Web development is the process of creating websites and web applications. It involves a combination of programming, design, and content creation to build functional and visually appealing websites.</p>
+    </header>
+    <hr>
+    <section>
+        <h2>Overview</h2>
+        <p>Web development is the process of creating websites and web applications. It involves a combination of programming, design, and content creation to build functional and visually appealing websites.</p>
+    </section>
+    <section>
     <h2>Key Terminologies of Web Development</h2>
-    <dl title="Key Terminologies of Web Development" >
-        <dt>1. <a href="www.html">World Wide Web</a></dt>
-        <dd>World Wide Web: An information system where documents and other web resources are identified by URLs, interlinked by hypertext, and accessible via the internet.</dd>
-        <dt>2. <a href="tcp-ip.html">Transmission Control Protocol/Internet Protocol</a></dt>
-        <dd>Transmission Control Protocol/Internet Protocol (TCP/IP): The foundational suite of communication protocols used to interconnect network devices on the internet, ensuring data is delivered reliably and to the correct destination.</dd>
-        <dt>3. <a href="browsers.html">Web Browsers</a></dt>
-        <dd>Web Browsers: Software applications, such as Chrome or Firefox, that retrieve and render content from the World Wide Web for users to view and interact with.</dd>
-        <dt>4. <a href="servers.html">Web Servers</a></dt>
-        <dd>Web Servers: Computers or software that store web files and deliver them to users' browsers via the internet when a request is made.</dd>
-        <dt>5. <a href="urls.html">Uniform Resource Locators</a></dt>
-        <dd>Uniform Resource Locators(URL): The specific web address used to locate a unique resource, such as a webpage or image, on the internet.</dd>
-        <dt>6. <a href="dns.html">Domain Name Server</a></dt>
-        <dd>Domain Name Server(DNS): The internet's "phonebook" that translates human-readable domain names like google.com into the numerical IP addresses computers use to identify each other.</dd>
-        <dt>7. <a href="http.html">Hypertext Transfer Protocol</a></dt>
-        <dd>Hypertext Transfer Protocol(HTTP): The standardized application-layer protocol used for transmitting hypermedia documents, serving as the basis for data communication on the World Wide Web.</dd>
-        <dt>8. <a href="intranet.html">Intranet</a></dt>
-        <dd>Intranet: A private network accessible only to an organization's staff, used for secure internal communication and collaboration.</dd>
-        <dt>9. <a href="extranet.html">Extranet</a></dt>
-        <dd>Extranet: A controlled private network that allows external partners, vendors, or authorized customers to access specific parts of an organization's intranet.</dd>
-        <dt>10. <a href="architecture.html">Multitier Architecture</a></dt>
-        <dd>Multitier Architecture: A client-server architecture in which presentation, application processing, and data management functions are physically separated into distinct layers or tiers.</dd>
-        <dt>11. <a href="ftp.html">File Transfer Protocol</a></dt>
-        <dd>File Transfer Protocol(FTP): A standard network protocol used for the direct transfer of computer files between a client and a server on a computer network.</dd>
-        <dt>12. <a href="html.html">Hypertext Mark-up Language</a></dt>
-        <dd>Hypertext Mark-up Language(HTML): The standard markup language used to create and structure the content and layout of pages displayed on the World Wide Web.</dd>
-        <dt>13. <a href="web-versions.html">Web Versions</a></dt>
-        <dd><ol type="i"><li>Web 1.0: The earliest stage of the World Wide Web's evolution, characterized by static webpages and one-way communication where users primarily acted as passive consumers of content.</li><br><li>Web 2.0: The era of the "social web," defined by user-generated content, ease of use, participatory culture, and interoperability for end users.</li><br><li>Web 3.0: The "semantic web" or "decentralized web," focusing on machine-readable data, blockchain technologies, and a more personalized, intelligent user experience.</li><br><li>Web 4.0: An emerging concept of the "symbiotic web," where humans and machines interact in real-time through highly advanced artificial intelligence and ubiquitous connectivity.</li></ol></dd>
-    </dl>
-    <p>Click on any terminology to learn more about it!!</p>
+    <table table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+        <thead>
+                <tr bgcolor="#f2f2f2">
+                    <th width="30%">Terminologies</th>
+                    <th>Descriptions</th>
+                </tr>
+            </thead>
+        <tbody>
+        <tr>
+            <td>1. <a href="www.html">World Wide Web</a></td>
+            <td>World Wide Web: An information system where documents and other web resources are identified by URLs, interlinked by hypertext, and accessible via the internet.</td>
+        </tr>
+        <tr>
+            <td>2. <a href="tcp-ip.html">Transmission Control Protocol/Internet Protocol</a></td>
+            <td>Transmission Control Protocol/Internet Protocol (TCP/IP): The foundational suite of communication protocols used to interconnect network devices on the internet, ensuring data is delivered reliably and to the correct destination.</td>
+        </tr>
+        <tr>
+            <td>3. <a href="browsers.html">Web Browsers</a></td>
+            <td>Web Browsers: Software applications, such as Chrome or Firefox, that retrieve and render content from the World Wide Web for users to view and interact with.</td>
+        </tr>
+        <tr>
+            <td>4. <a href="servers.html">Web Servers</a></td>
+            <td>Web Servers: Computers or software that store web files and deliver them to users' browsers via the internet when a request is made.</td>
+        </tr>
+        <tr>
+            <td>5. <a href="urls.html">Uniform Resource Locators</a></td>
+            <td>Uniform Resource Locators(URL): The specific web address used to locate a unique resource, such as a webpage or image, on the internet.</td>
+        </tr>
+        <tr>
+            <td>6. <a href="dns.html">Domain Name Server</a></td>
+            <td>Domain Name Server(DNS): The internet's "phonebook" that translates human-readable domain names like google.com into the numerical IP addresses computers use to identify each other.</td>
+        </tr>
+        <tr>
+            <td>7. <a href="http.html">Hypertext Transfer Protocol</a></td>
+            <td>Hypertext Transfer Protocol(HTTP): The standardized application-layer protocol used for transmitting hypermedia documents, serving as the basis for data communication on the World Wide Web.</td>
+        </tr>
+        <tr>
+            <td>8. <a href="intranet.html">Intranet</a></td>
+            <td>Intranet: A private network accessible only to an organization's staff, used for secure internal communication and collaboration.</td>
+        </tr>
+        <tr>
+            <td>9. <a href="extranet.html">Extranet</a></td>
+            <td>Extranet: A controlled private network that allows external partners, vendors, or authorized customers to access specific parts of an organization's intranet.</td>
+        </tr>
+        <tr>
+            <td>10. <a href="architecture.html">Multitier Architecture</a></td>
+            <td>Multitier Architecture: A client-server architecture in which presentation, application processing, and data management functions are physically separated into distinct layers or tiers.</td>
+        </tr>
+        <tr>
+            <td>11. <a href="ftp.html">File Transfer Protocol</a></td>
+            <td>File Transfer Protocol(FTP): A standard network protocol used for the direct transfer of computer files between a client and a server on a computer network.</td>
+        </tr>
+        <tr>
+            <td>12. <a href="html.html">Hypertext Mark-up Language</a></td>
+            <td>Hypertext Mark-up Language(HTML): The standard markup language used to create and structure the content and layout of pages displayed on the World Wide Web.</td>
+        </tr>
+        <tr>
+            <td>13. <a href="web-versions.html">Web Versions</a></td>
+            <td>
+                        <ul style="margin: 0;">
+                            <li><strong>Web 1.0:</strong> Static webpages (Read-only).</li>
+                            <li><strong>Web 2.0:</strong> Social/Participatory web (Read-Write).</li>
+                            <li><strong>Web 3.0:</strong> Semantic/Decentralized web.</li>
+                            <li><strong>Web 4.0:</strong> Symbiotic/AI-driven web.</li>
+                        </ul>
+                    </td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+     <footer>
+        <p style="text-align: center; color: gray;">
+            <br>
+            <em>Tip: Click on any blue link to explore the topic in depth.</em>
+        </p>
+    </footer>
 </body>
 </html>
