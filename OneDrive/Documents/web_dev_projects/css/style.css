@@ -1,0 +1,25 @@
+ body { font-family:sans-serif; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    }
+    nav { background: #f4f4f4; 
+        padding: 14px 16px; 
+        border: 1px solid #ccc; 
+        text-align: center; 
+    }
+    nav a { margin: 0 10px; 
+        text-decoration: none; 
+        color: blue; 
+    }
+    .content-box { border: 1px solid #ddd; 
+        padding: 20px; 
+        margin-top: 20px; 
+    }
+    img { display: block; 
+        margin: 20px auto; 
+        max-width: 100%; 
+        height: auto; 
+        border: 1px solid #000; 
+    }
