@@ -5,7 +5,6 @@
     padding: 20px; 
     background-color: #333;
     color: beige;
-    
     }
     nav { background: #706c6c; 
         padding: 14px 16px; 
@@ -47,4 +46,11 @@
     }
     footer a:hover { text-decoration: underline; 
         color: #ddd; 
+    }
+    table a { color: beige; 
+        text-decoration: none; 
+
+    }
+    table a:hover { text-decoration: underline; 
+        color: #0cebff; 
     }
