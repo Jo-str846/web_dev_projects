@@ -1,13 +1,14 @@
  body {
-            background-color: #000000;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 20px;
+            color: #333;
         }
         p{
             font-family: 'Arial', sans-serif;
             font-size: 16px;
             line-height: 1.5;
-                color: #fffefe;
+                color: #333;
                 padding: 10px;
         }
         .highlight{
@@ -29,4 +30,57 @@
         .topnav a:hover{
             background-color: #f2f2f2;
             color: #333;
+        }
+        .card{
+            text-decoration: none;
+            color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card a{
+            color: #333;
+            text-decoration: none;
+        }
+        .card a:hover{
+            text-decoration: underline;
+            color: #99b7b9;
+        }
+        @media screen and (max-width: 600px) {
+            .row{
+                flex-direction: column;
+            }
+            .content, .sidebar{
+                flex: 100%;
+                margin: 0;
+            }
+            
+        }
+        .banner{
+            background-color: #183b4c;
+            color: #f2f2f2;
+            text-align: center;
+            font-size: large;
+            height: 100px;
+            
+        }
+        .row{
+            display: flex;
+        }
+        .content{
+            flex: 3;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .sidebar{
+            flex: 1;
+            padding: 20px;
+        }
+        .footer{
+            background-color: #333;
+            color: #f2f2f2;
+            font-size: small;
+            text-align: center;
+            padding: 10px;
         }
