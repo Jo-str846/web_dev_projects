@@ -130,17 +130,7 @@ tr:hover {
     background-color: #377677;
     color:#333;
 }
-form{
-    text-align: center;
-    padding-top: 10px;
-    font-size: 17px;
-    
-}
-form label{
-    color:black;
-    
-    
-}
-form input{
-    color: black;
+.form-control{
+    border: 1px solid #ced4da !important;
+    padding: 12px;
 }
