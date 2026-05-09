@@ -5,25 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .login{
+                min-height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    </style>
 </head>
 <body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
 
-    <div class = "banner">Student Contact details</div>
+    </div>
+    <div class="banner">
+        <h1>Login</h1>
+        <h2>Login to your student account</h2>
+    </div>
 
-    <form action="">
-        <label for="fullname">Full Name: </label><br>
-        <input type="text" id="fullname" placeholder="Enter your full name"><br>
-        <label for="contact">Contact details: </label><br>
-        <input type="number" id="contact" placeholder="Enetr your contact details"><br>
-        <label for="email">Email Address: </label><br>
-        <input type="text" id="email" placeholder="Enter your email address"><br>
+    <div class = "login">
+        <div class="cardshadow" style="width: 100%; max-width: 400px; border-radius: 15px;">
+            <div class="card-body p-5">
+                <h2 class="text-center mb-4">
+                    Sign in
+                </h2>
 
-        <label for="message">Message us: </label><br>
-        <textarea name="" id="message" placeholder="Type in your message"></textarea><br>
-        <button type="submit">Send</button>
-        <br><br>
-        
-    </form>
-    
+                <form action="">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@strathmore.edu" required>
+                    </div>
+
+                     <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div> 
+                    
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success">
+                            Login
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-3">
+                    <small>
+                        Don't have an account?<a href="signup.html">Sign Up</a>
+                    </small>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
