@@ -27,7 +27,7 @@ h2 {
 }
 .topnav {
     
-    background-color: #03363e;
+    background-color: #0d3b36;
     overflow: hidden;
 }
 .topnav a {
@@ -46,7 +46,7 @@ h2 {
 }
 
 .banner {
-    background-color: #03363e;
+    background-color: #0d3b36;
     color: white;
     padding: 20px;
     text-align: center;
@@ -130,7 +130,4 @@ tr:hover {
     background-color: #377677;
     color:#333;
 }
-.form-control{
-    border: 1px solid #ced4da !important;
-    padding: 12px;
-}
+
