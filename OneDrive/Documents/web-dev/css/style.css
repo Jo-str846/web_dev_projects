@@ -1,86 +1,146 @@
- body {
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        p{
-            font-family: 'Arial', sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-                color: #333;
-                padding: 10px;
-        }
-        .highlight{
-            background-color: yellow;
-        }
-        .topnav{
-            background-color: #333;
-            overflow: hidden;
-        }
-        .topnav a{
-            float: left;
-            color: #f2f2f2;
-            display: block;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-        .topnav a:hover{
-            background-color: #f2f2f2;
-            color: #333;
-        }
-        .card{
-            text-decoration: none;
-            color: #333;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .card a{
-            color: #333;
-            text-decoration: none;
-        }
-        .card a:hover{
-            text-decoration: underline;
-            color: #99b7b9;
-        }
-        @media screen and (max-width: 600px) {
-            .row{
-                flex-direction: column;
-            }
-            .content, .sidebar{
-                flex: 100%;
-                margin: 0;
-            }
-            
-        }
-        .banner{
-            background-color: #183b4c;
-            color: #f2f2f2;
-            text-align: center;
-            font-size: large;
-            height: 100px;
-            
-        }
-        .row{
-            display: flex;
-        }
-        .content{
-            flex: 3;
-            padding: 20px;
-            margin-right: 20px;
-        }
-        .sidebar{
-            flex: 1;
-            padding: 20px;
-        }
-        .footer{
-            background-color: #333;
-            color: #f2f2f2;
-            font-size: small;
-            text-align: center;
-            padding: 10px;
-        }
+body {
+    background-color: #b3c2c3;
+    margin: 0;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    padding: 10px;
+    
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+
+    text-transform: uppercase;
+}
+h2 {
+    color:#121212;
+    text-decoration: none;
+    font-size: 25px;
+}
+.highlight {
+    /* color: #495857; */
+    font-weight: bold;
+    background-color: #f3f29e;
+    padding: 5px;
+}
+.topnav {
+    
+    background-color: #03363e;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.banner {
+    background-color: #03363e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+.content a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background-color:darkcyan;
+}
+.sidebar a {
+    color: #aaf3ee;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .content, .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+table th{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #34495e;
+    color: white;
+}
+table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color:azure;
+    color: #333;
+    border: #333;
+}
+tr:hover {
+    background-color: #377677;
+    color:#333;
+}
+form{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+    
+}
+form label{
+    color:black;
+    
+    
+}
+form input{
+    color: black;
+}
